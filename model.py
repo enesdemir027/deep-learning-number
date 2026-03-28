@@ -61,7 +61,7 @@ for filename in uploaded.keys():
     img_array = np.array(img)
 
     img_array = img_array / 255.0
-    img_array = 1 - img_array  # Zemin beyaz, rakam siyah olsun
+    img_array = 1 - img_array
 
     tahmin = model.predict(img_array.reshape(1, 28, 28), verbose=0)
     sonuc = np.argmax(tahmin)
