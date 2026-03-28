@@ -74,14 +74,14 @@ from tensorflow import keras
 import numpy as np
 from PIL import Image
 
-# Modeli yükle
+
 model = keras.models.load_model('rakam.h5')
 
-# Kendi resmini yükle ve tahmin et
+
 img = Image.open('rakam.png').convert('L')
 img = img.resize((28, 28))
 img_array = np.array(img) / 255.0
-img_array = 1 - img_array  # Beyaz zemin, siyah rakam
+img_array = 1 - img_arra
 
 tahmin = model.predict(img_array.reshape(1, 28, 28))
 sonuc = np.argmax(tahmin)
@@ -103,5 +103,3 @@ Resmi 28x28 boyutuna getir
 
 Yukarıdaki kodu çalıştır
 
-
-<p align="center"> <i>“Sürekli öğren, sürekli geliştir.”</i> </p><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=2D9C7C&height=80&section=footer" /> </p> ```
