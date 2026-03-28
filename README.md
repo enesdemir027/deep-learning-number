@@ -1,7 +1,7 @@
 # 🧠 El Yazısı Rakam Tanıma - Deep Learning
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=2D9C7C&center=true&vCenter=true&width=550&lines=MNIST+%7C+TensorFlow+%7C+%9797.66%25+Do%C4%9Fruluk" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=2D9C7C&center=true&vCenter=true&width=550&lines=MNIST+%7C+TensorFlow+%7C+97.66%25+Do%C4%9Fruluk" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/TensorFlow-2.19.0-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
